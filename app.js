@@ -6,7 +6,7 @@ require('dotenv').config()
 // Creating express server
 const app = express();
 
-const PORT = 3082;
+const PORT = process.env.PORT;
 const HOST = "localhost";
 const API_URL = process.env.API_URL;
 //const API_KEY_VALUE = process.env.API_KEY_VALUE;
